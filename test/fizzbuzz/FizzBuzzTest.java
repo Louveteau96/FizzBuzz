@@ -14,13 +14,18 @@ class FizzBuzzTest {
 	}
 
 	@Test
-	void repond1() {
+	void fizzbuzz_repond_1_pour_1() {
 		assertEquals("1",fb.fizzbuzz(1));
 	}
 	
 	@Test
-	void repond2() {
+	void fizzbuzz_repond_2_pour_2() {
 		assertEquals("2",fb.fizzbuzz(2));
+	}
+	
+	@Test
+	void fizzbuzz_repond_3_pour_3() {
+		assertEquals("fizz",fb.fizzbuzz(3));
 	}
 
 }
