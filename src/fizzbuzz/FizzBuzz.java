@@ -6,7 +6,7 @@ public class FizzBuzz {
 	
 	public String fizzbuzz(int numero) {
 		for (int i =0; i<numSpeciaux.length;i++) {
-			if(numero==numSpeciaux[i]) {
+			if(numero % numSpeciaux[i]==0) {
 				return traduction[i];
 			}
 		}
