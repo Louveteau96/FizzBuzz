@@ -45,7 +45,11 @@ class FizzBuzzTest {
 	void fizzbuzz_repond_correctement_pour_un_multiple() {
 		assertEquals("fizz",fb.fizzbuzz(6));
 		assertEquals("buzz",fb.fizzbuzz(400));
-
+	}
+	
+	@Test
+	void fizzbuzz_repond_fizzbuzz() {
+		assertEquals("fizzbuzz",fb.fizzbuzz(15));
 	}
 
 }
