@@ -27,5 +27,18 @@ class FizzBuzzTest {
 	void fizzbuzz_repond_3_pour_3() {
 		assertEquals("fizz",fb.fizzbuzz(3));
 	}
+	
+	@Test
+	void fizzbuzz_repond_un_entier() {
+		assertEquals("4",fb.fizzbuzz(4));
+		assertEquals("7",fb.fizzbuzz(7));
+		assertEquals("13",fb.fizzbuzz(13));
+		assertEquals("400",fb.fizzbuzz(400));
+	}
+	
+	@Test
+	void fizzbuzz_repond_buzz() {
+		assertEquals("buzz",fb.fizzbuzz(5));
+	}
 
 }
